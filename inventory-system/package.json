@@ -1,0 +1,16 @@
+{
+  "name": "inventory-data-management-system",
+  "version": "1.0.0",
+  "description": "RESTful inventory backend using Node.js, Express, MongoDB and Mongoose",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  },
+  "engines": { "node": ">=18" }
+}
